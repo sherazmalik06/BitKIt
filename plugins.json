@@ -3,12 +3,12 @@
       "name" : "A", 
       "version" : "1.0",
       "description": "The new version of the Auto-Update plugin",
-      "package": ""
+      "package": "https://github.com/sherazmalik06/BitKIt/raw/master/a.zip"
   },
   "b/b.php": {
       "name" : "B", 
       "version" : "1.0",
       "description": "The new version of the Auto-Update plugin",
-      "package": ""
+      "package": "https://github.com/sherazmalik06/BitKIt/raw/master/b.zip"
   }
 }
