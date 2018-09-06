@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: Plugin Auto Update
+ Plugin Name: A Plugin
  Plugin URI: http://bitbytes.io
  Description: Plugin with auto-updates from external URL/Repository using Github
  Author: BitBytes
