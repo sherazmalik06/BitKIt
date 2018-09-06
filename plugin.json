@@ -1,30 +1,14 @@
-[
-   {
+{
+   "a/a.php": {
       "name" : "A", 
-      "slug":"a.php",
       "version" : "1.0",
-      "plugin_url": "https://bitbytes.io",
-      "package_url": "https://github.com/sherazmalik06/update-plugin/raw/master/plugin-auto-update.zip",
-      "requires": "4.0",
-      "tested": "4.0",
-      "last_updated": "2012-10-17",
-      "sections": {
-        "description": "The new version of the Auto-Update plugin",  
-        "changelog": "Some new features"
-      }
+      "description": "The new version of the Auto-Update plugin",
+      "package": ""
   },
-  {
+  "b/b.php": {
       "name" : "B", 
-      "slug":"b.php",
       "version" : "1.0",
-      "plugin_url": "https://bitbytes.io",
-      "package_url": "https://github.com/sherazmalik06/update-plugin/raw/master/plugin-auto-update.zip",
-      "requires": "4.0",
-      "tested": "4.0",
-      "last_updated": "2012-10-17",
-      "sections": {
-        "description": "The new version of the Auto-Update plugin",  
-        "changelog": "Some new features"
-      }
+      "description": "The new version of the Auto-Update plugin",
+      "package": ""
   }
-]
+}
