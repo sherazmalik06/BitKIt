@@ -1,6 +1,6 @@
 <?php
 
-class a_update 
+class WP_AutoUpdate 
 {
 	/**
 	 * The plugin current version
@@ -44,11 +44,15 @@ class a_update
 	 * @param string $update_path
 	 * @param string $plugin_slug
 	 */
-	public function __construct( $current_version, $update_path, $plugin_slug)
+	public function __construct( $current_version, $update_path, $plugin_slug, $license_user = '', $license_key = '' )
 	{
 		// Set the class public variables
 		$this->current_version = $current_version;
 		$this->update_path = $update_path;
+
+		// Set the License
+		$this->license_user = $license_user;
+		$this->license_key = $license_key;
 
 		// Set the Plugin Slug	
 		$this->plugin_slug = $plugin_slug;
@@ -143,7 +147,10 @@ class a_update
                     $obj->requires = $data['requires'];
                     $obj->downloaded = 12540;
                     $obj->last_updated = $data['last_updated'];
-                    $obj->description = $data['description'];
+                    $obj->sections = array(
+                        'description' => $data['sections']['description'],
+                        'changelog' => $data['sections']['changelog']
+                    );
                     $obj->download_link = $obj->package;
                 break;
             }
