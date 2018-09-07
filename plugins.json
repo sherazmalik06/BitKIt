@@ -7,7 +7,9 @@
     "requires": "4.0",
     "tested": "4.0",
     "last_updated": "2012-10-17",
-    "description": "The new version of the Auto-Update plugin",  
-  	"changelog": "Some new features"
+    "sections": {
+        "description": "The new version of the Auto-Update plugin",  
+        "changelog": "Some new features"
+  }
     
 }
