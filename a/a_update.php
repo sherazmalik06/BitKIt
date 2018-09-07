@@ -1,6 +1,6 @@
 <?php
 
-class a_Update 
+class a_update 
 {
 	/**
 	 * The plugin current version
