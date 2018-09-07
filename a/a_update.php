@@ -1,6 +1,6 @@
 <?php
 
-class a_update 
+class a_Update 
 {
 	/**
 	 * The plugin current version
@@ -44,15 +44,11 @@ class a_update
 	 * @param string $update_path
 	 * @param string $plugin_slug
 	 */
-	public function __construct( $current_version, $update_path, $plugin_slug )
+	public function __construct( $current_version, $update_path, $plugin_slug)
 	{
 		// Set the class public variables
 		$this->current_version = $current_version;
 		$this->update_path = $update_path;
-
-		// Set the License
-		// $this->license_user = $license_user;
-		// $this->license_key = $license_key;
 
 		// Set the Plugin Slug	
 		$this->plugin_slug = $plugin_slug;
@@ -135,8 +131,10 @@ class a_update
             $obj->slug = $data['slug'];  
             $obj->name = $data['name'];
             $obj->plugin_name = $data['slug'];
-            $obj->new_version = $data['version'];
-            
+			$obj->new_version = $data['version'];
+			$obj->tested = $data['tested'];
+            // the url for the plugin homepage
+            $obj->url = $data['plugin_url'];
             //the download location for the plugin zip file (can be any internet host)
             $obj->package = $data['package_url'];
 
