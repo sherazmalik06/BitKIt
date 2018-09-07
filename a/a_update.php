@@ -135,10 +135,8 @@ class a_update
             $obj->slug = $data['slug'];  
             $obj->name = $data['name'];
             $obj->plugin_name = $data['slug'];
-			$obj->new_version = $data['version'];
-			$obj->tested = $data['tested'];
-            // the url for the plugin homepage
-            $obj->url = $data['plugin_url'];
+            $obj->new_version = $data['version'];
+            
             //the download location for the plugin zip file (can be any internet host)
             $obj->package = $data['package_url'];
 
