@@ -8,8 +8,8 @@
  */
 
 // Load the auto-update class
-add_action( 'init', 'activate' );
-function activate()
+add_action( 'init', 'b_activate' );
+function b_activate()
 {
 
 	$plugin_current_version = '1.0';
