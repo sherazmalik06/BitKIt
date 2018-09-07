@@ -14,5 +14,5 @@ function a_activate()
 	$plugin_current_version = '1.0';
 	$plugin_remote_path = 'https://github.com/sherazmalik06/BitKIt/blob/master/plugins.json';
 	$plugin_slug = plugin_basename( __FILE__ );
-	new a_Update ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
+	//new a_Update ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
 }
