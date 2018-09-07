@@ -4,7 +4,7 @@
  Plugin URI: http://bitbytes.io
  Description: Plugin with auto-updates from external URL/Repository using Github
  Author: BitBytes
- Version: 1.0
+ Version: 1.1
  */
 
 // Load the auto-update class
@@ -15,5 +15,5 @@ function a_activate()
 	$plugin_current_version = '1.0';
 	$plugin_remote_path = 'https://github.com/sherazmalik06/BitKIt/blob/master/plugins.json';
 	$plugin_slug = plugin_basename( __FILE__ );
-	new a_Update ( $plugin_current_version, $plugin_remote_path, $plugin_slug, $license_user, $license_key );
+	new a_Update ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
 }
