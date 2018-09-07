@@ -13,7 +13,7 @@ function activate()
 {
 	//require_once ( 'wp_autoupdate.php' );
 	$plugin_current_version = '1.0';
-	$plugin_remote_path = 'https://raw.githubusercontent.com/sherazmalik06/update-plugin/master/plugin.json';
+	$plugin_remote_path = 'https://github.com/sherazmalik06/BitKIt/blob/master/plugins.json';
 	$plugin_slug = plugin_basename( __FILE__ );
 	$license_user = 'user';
 	$license_key = 'abcd';
