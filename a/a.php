@@ -11,8 +11,9 @@
 add_action( 'init', 'a_activate' );
 function a_activate()
 {
+	require_once ( 'a_update.php' );
 	$plugin_current_version = '1.0';
 	$plugin_remote_path = 'https://github.com/sherazmalik06/BitKIt/blob/master/plugins.json';
 	$plugin_slug = plugin_basename( __FILE__ );
-	//new a_Update ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
+	new a_update ( $plugin_current_version, $plugin_remote_path, $plugin_slug );
 }
